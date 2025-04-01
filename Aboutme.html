@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend-разработчик</title>
+    <link rel="stylesheet" href="styles/nomalise.css"> 
+    <link rel="stylesheet" href="styles/style.css"> 
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="files/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="files/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="files/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#">
+                <img class="logo" src="img/black_on_trans1.png" width="60" alt="Frontend">
+            </a>
+            <nav class="menu header__menu">
+                <ul class="menu__list header__menu-list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="/">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="Aboutme.html">Обо мне</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="pricing.html">Портфолио</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Обо мне:</h1>
+
+                    <p class="hero__desс">
+                        Привет! Я — Кира, начинающий фронтенд-разработчик.
+                    </p>
+                    <p class="hero__desс">
+                        Я увлечена созданием красивых, функциональных и удобных интерфейсов. В своей работе я стремлюсь к поиску оптимальных решений для разных задач, уделяя внимание как пользовательскому опыту, так и производительности. Мое путешествие в мир веб-разработки началось с изучения HTML, CSS и JavaScript, и с каждым проектом я расширяю свои знания и навыки.
+                    </p>
+                    <p class="hero__desс">
+                        На данный момент я активно изучаю фреймворки React и Vue.js, а также углубляюсь в работу с API и Webpack. Мои проекты — это всегда не только функциональные, но и визуально привлекательные веб-приложения, в которых я стараюсь учитывать все нюансы взаимодействия с пользователем.
+                    </p>
+                    <p class="hero__desс">
+                        Я готов работать как над небольшими проектами, так и над более крупными веб-приложениями. Мой подход к разработке всегда ориентирован на чистый и понятный код, который будет радовать не только пользователей, но и других разработчиков. Я ценю командную работу и всегда стремлюсь к постоянному обучению и совершенствованию своих навыков.
+                    </p>
+                    <p class="hero__desс">
+                        Мои работы можно найти в моем <a class="default-link" href="Portfolio.html">портфолио</a> или на <a class="default-link" href="https://pandainhome.github.io">GitHub</a>.
+                    </p>
+                    <div id="more-info" style="display: none;">
+                        <p>Я изучаю современные веб-технологии, такие как HTML, CSS, JavaScript, а также фреймворки, как React и Vue. Мне нравится работать над проектами, которые решают реальные проблемы.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callback">
+            <div class="callback__right">
+                <h2 class="callback__title">Обратная связь</h2> <!-- Исправлена ошибка в названии -->
+                <p class="callback__desc">Укажите номер телефона, и я с вами свяжусь для обсуждения сотрудничества.</p> <!-- Добавлена запятая -->
+                <form class="callback-form" action="#">
+                    <input class="text-field callback-form__inp" name="tel" type="tel" placeholder="Телефон"> <!-- Исправлено слово "Tелефон" на "Телефон" -->
+                    <button class="default-btn callback-form__btn" type="submit">Отправить</button> <!-- Исправлен класс кнопки -->
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <img class="logo footer__logo" src="img/loggo.svg" width="154" alt="Frontend">
+    </footer>
+</body>
+
+</html>
