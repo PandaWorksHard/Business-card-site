@@ -493,6 +493,7 @@ a {
 /* Стили для ховера на ссылках */
 .contacts__item a:hover {
     color: var(--base-color-hover); /* Цвет при наведении */
+text-decoration: underline;
 }
 
 /* Футер */
